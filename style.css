@@ -54,12 +54,12 @@ body{
     margin: 10px;
     text-decoration: none;
 }
-.caption{
+.item-link.caption{
     opacity: 0;
     padding: 100px 50px;
     color: black;
 }
-.caption:hover{
+.item-link.caption:hover{
     opacity: 1;
 }
 .item-link:hover, .graphics:hover{
