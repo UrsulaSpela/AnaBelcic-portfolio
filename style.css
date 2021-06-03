@@ -53,13 +53,13 @@ body{
     background: #C8C9A5;
     margin: 10px;
     text-decoration: none;
-}
-.item-link.caption{
-    opacity: 0;
-    padding: 100px 50px;
     color: black;
 }
-.item-link.caption:hover{
+.caption{
+    opacity: 0;
+    padding: 100px 50px;
+}
+.caption:hover{
     opacity: 1;
 }
 .item-link:hover, .graphics:hover{
