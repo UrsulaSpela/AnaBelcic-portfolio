@@ -1,67 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-body{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
-#main{
-    width: 1440px;
-    padding: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+#main {
+  width: 1440px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-#navigation{
-    grid-column: 1/2;
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
+#navigation {
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
 }
-.logo{
-    margin-bottom: 30px;
+.logo {
+  margin-bottom: 30px;
 }
-#navigation a{
-    margin-bottom: 15px;
-    font-size: 20px;
-    font-weight: 100;
-    text-decoration: none;
-    color: black;
+#navigation a {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 100;
+  text-decoration: none;
+  color: black;
 }
-#navigation a:hover{
-    color: #BCBF63;
+#navigation a:hover {
+  color: #bcbf63;
 }
-#projects{
-    grid-column: 2/5;
-    display: flex;
-    flex-direction: column;
-    
+#projects {
+  grid-column: 2/5;
+  display: flex;
+  flex-direction: column;
 }
-#archiprojects, #graphic-design-projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+#archiprojects,
+#graphic-design-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.item-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-    background: #C8C9A5;
-    margin: 10px;
-    text-decoration: none;
-    color: black;
+.item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  background: #c8c9a5;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
 }
-.caption{
-    opacity: 0;
-    padding: 100px 50px;
+.caption {
+  opacity: 0;
+  padding: 100px 50px;
 }
-.caption:hover{
-    opacity: 1;
+.caption:hover {
+  opacity: 1;
 }
-.item-link:hover, .graphics:hover{
-    opacity: .5;
+.item-link:hover,
+.graphics:hover {
+  opacity: 0.5;
 }
