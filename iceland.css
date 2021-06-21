@@ -21,8 +21,10 @@ body {
   flex-direction: column;
   margin-top: 100px;
 }
-.logo {
+#logo {
   margin-bottom: 30px;
+  width: 100px;
+  height: 100px;
 }
 #navigation a {
   margin-bottom: 15px;
