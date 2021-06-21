@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+#main {
+  width: 1440px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#navigation {
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.logo {
+  margin-bottom: 30px;
+}
+#navigation a {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 100;
+  text-decoration: none;
+  color: black;
+}
+#navigation a:hover {
+  color: #bcbf63;
+}
+#content {
+  grid-column: 2/5;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1000px;
+}
+#text {
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+p {
+  margin-bottom: 50px;
+}
+.img1 {
+  width: 1000px;
+  height: 700px;
+  background: url(iceland/Prerezifasade.jpg);
+  background-size: cover;
+  margin-bottom: 25px;
+  grid-row: 2/3;
+  grid-column: 1/4;
+}
+.img2 {
+  width: 300px;
+  height: 400px;
+  background: url(iceland/Vizualizacija4.jpg);
+  background-size: cover;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.img3 {
+  width: 300px;
+  height: 400px;
+  background: url(iceland/Vizualizacija1.jpg);
+  background-size: cover;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.img4 {
+  width: 300px;
+  height: 400px;
+  background: url(iceland/Vizualizacija2a.jpg);
+  background-size: cover;
+  margin-bottom: 25px;
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+.img5 {
+  width: 1000px;
+  height: 1300px;
+  background: url(iceland/Aksonometrija.jpg);
+  background-size: cover;
+  margin-bottom: 25px;
+  grid-row: 4/5;
+  grid-column: 1/4;
+}
